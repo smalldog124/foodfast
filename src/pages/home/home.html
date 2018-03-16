@@ -1,17 +1,32 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title class="header-text">FOODFAST</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>
+        <div class="profile">
+            <img class="pic-res" src="http://autokadabra.ru/system/uploads/users/18/18340/small.png?1318432918">
+            <span class="name-res">เล็กโภชนา</span>
+        </div>
+      </ion-card-title>
+    </ion-card-content>
+    <img src="https://img.wongnai.com/p/1920x0/2017/03/15/066348aba9614a9399a3c53f5a6a3d75.jpg" />
+    <ion-card-content>
+      <p>
+        กะเพราจ้า
+      </p>
+    </ion-card-content>
+    <ion-row class="row" no-padding="">
+        <ion-col class="col">
+          <button clear="" color="danger" icon-start="" ion-button="" small="" class="button button-md button-clear button-clear-md button-small button-small-md button-clear-md-danger"><span class="button-inner">
+            <ion-icon name="ios-water"></ion-icon>
+            25
+          </span><div class="button-effect"></div></button>
+        </ion-col>
+      </ion-row>
+  </ion-card>
 </ion-content>
